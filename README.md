@@ -35,6 +35,7 @@
     </div>
   </div>
   <div class="ball-triangle-path"><div></div><div></div><div></div></div>
+  <div class="wrapper"></div>
   <script src="./main.js"></script>
 </body>
 </html>
