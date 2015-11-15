@@ -37,3 +37,4 @@
 </body>
 </html>
 ```
+![](docs/animation.gif)
