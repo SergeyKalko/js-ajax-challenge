@@ -1,0 +1,72 @@
+html {
+  font-family: Lucida Console, Monaco5, monospace;
+  height: 100vh;
+  font-size: 14px;
+  color: #fff;
+}
+.body {
+  position: relative;
+  margin: 0;
+  background: #1f253d;
+}
+.loading .ball-triangle-path {
+  display: block;
+}
+.loading .root {
+  opacity: .3;
+}
+.root {
+  position: relative;
+  display: block;
+  margin: 50px auto;
+  width: 100%;
+  max-width: 590px;
+}
+.root .left,
+.root .right {
+  position: absolute;
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(./server/vendor/left.png);
+  top: 182px;
+  left: 0;
+}
+.root .right {
+  background: url(./server/vendor/right.png);
+  left: auto;
+  right: 0;
+}
+.root .category {
+  display: block;
+  background: #11a8ab;
+  border-radius: 3px 3px 0 0;
+  padding: 10px 30px;
+  height: 24px;
+}
+.root .category p {
+  font-size: 24px;
+  line-height: 1;
+  margin: 0;
+}
+.root img {
+  display: block;
+  width: 600px;
+  height: 300px;
+  margin: 0 0 0 -5px;
+}
+.root .description {
+  display: block;
+  width: calc(100% - 60px);
+  padding: 20px 30px;
+  background: #394264;
+  border-radius: 0 0 3px 3px;
+}
+.root .title {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+.root .content {
+  margin: 0;
+  font-size: 14px;
+}
