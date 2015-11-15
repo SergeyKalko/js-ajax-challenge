@@ -1,5 +1,7 @@
 # JS challenge
 
+![](docs/animation.gif)
+
 ## Запуск сервера
 
 В консоли из папки 'js-challenge/server' выполнить команду npm start
@@ -37,4 +39,3 @@
 </body>
 </html>
 ```
-![](docs/animation.gif)
