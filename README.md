@@ -14,13 +14,13 @@
 
 Перед тем, как преступить к выполнению челленджа убедитесь, что у вас установлены [node.js](https://nodejs.org)
 ![](docs/node.png)
+
 и [npm](https://www.npmjs.com)
 ![](docs/npm.png)
 
 ## Запуск сервера
 
 В консоли из папки js-challenge/server выполнить команду npm start
-
 ![](docs/server.png)
 
 ## Начало разработки
