@@ -1,10 +1,27 @@
 # JS challenge
 
+Данный челлендж предназначен для того, что бы выполняющий его мог разобраться с такими вещами как:
+- добавление и удаление классов у элементов
+- изменение контента с помощью JS
+- принципы работы data атрибутов тегов
+- изменение атрибутов тегов
+- что такое AJAX и как с ним работать
+- обработчики событий в JS
+
 ![](docs/animation.gif)
+
+##Подготовка
+
+Перед тем, как преступить к выполнению челленджа убедитесь, что у вас установлены [node.js](https://nodejs.org)
+![](docs/node.png)
+и [npm](https://www.npmjs.com)
+![](docs/npm.png)
 
 ## Запуск сервера
 
 В консоли из папки js-challenge/server выполнить команду npm start
+
+![](docs/server.png)
 
 ## Начало разработки
 
@@ -20,6 +37,7 @@
   <title>JS challenge</title>
   <link rel="stylesheet" type="text/css" href="../../styles.css">
   <link rel="stylesheet" type="text/css" href="../../loader.css">
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 </head>
 <body class="body loading">
   <div class="root">
